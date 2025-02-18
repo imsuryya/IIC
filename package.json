@@ -11,11 +11,16 @@
   "dependencies": {
     "@radix-ui/react-label": "^2.1.2",
     "@radix-ui/react-select": "^2.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.3",
     "lucide-react": "^0.475.0",
+<<<<<<< HEAD
     "mini-svg-data-uri": "^1.4.4",
+=======
+    "motion": "^12.4.3",
+>>>>>>> 3eb7d5978b88b6e4bb26a1bb84fbfb9a529a76c1
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
