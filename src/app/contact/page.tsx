@@ -18,22 +18,22 @@ export default function ContactPage() {
           <form className="space-y-6 mt-8 md:mt-0">
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <Label htmlFor="firstname" className="text-white">First name</Label>
+                <Label htmlFor="firstname" className="text-black">First name</Label>
                 <Input id="firstname" placeholder="First name" className="bg-white/10 text-white placeholder:text-gray-400" />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="lastname" className="text-white">Last name</Label>
+                <Label htmlFor="lastname" className="text-black">Last name</Label>
                 <Input id="lastname" placeholder="Last name" className="bg-white/10 text-white placeholder:text-gray-400" />
               </div>
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="email" className="text-white">Email</Label>
+              <Label htmlFor="email" className="text-black">Email</Label>
               <Input id="email" type="email" placeholder="you@company.com" className="bg-white/10 text-white placeholder:text-gray-400" />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="phone" className="text-white">Phone number</Label>
+              <Label htmlFor="phone" className="text-black">Phone number</Label>
               <div className="flex gap-2">
                 <Select defaultValue="US">
                   <SelectTrigger className="w-[100px] bg-white/10 text-white">
@@ -50,7 +50,7 @@ export default function ContactPage() {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="message" className="text-white">Message</Label>
+              <Label htmlFor="message" className="text-black">Message</Label>
               <Textarea 
                 id="message" 
                 placeholder="Leave us a message..." 
@@ -66,18 +66,18 @@ export default function ContactPage() {
           {/* Contact Information */}
           <div className="space-y-12">
             <div className="space-y-4">
-              <h2 className="text-xl font-semibold text-white">Chat with us</h2>
-              <p className="text-gray-300">Speak to our friendly team via live chat.</p>
+              <h2 className="text-xl font-semibold text-black">Chat with us</h2>
+              <p className="text-black">Speak to our friendly team via live chat.</p>
               <div className="space-y-3">
-                <a href="#" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+                <a href="#" className="flex items-center gap-2 text-black hover:text-gray-700 transition-colors">
                   <MessageCircle size={18} />
                   Start a live chat
                 </a>
-                <a href="#" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+                <a href="#" className="flex items-center gap-2 text-black hover:text-gray-700 transition-colors">
                   <Mail size={18} />
                   Shoot us an email
                 </a>
-                <a href="#" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+                <a href="#" className="flex items-center gap-2 text-black hover:text-gray-700 transition-colors">
                   <Twitter size={18} />
                   Message us on X
                 </a>
@@ -85,18 +85,18 @@ export default function ContactPage() {
             </div>
 
             <div className="space-y-4">
-              <h2 className="text-xl font-semibold text-white">Call us</h2>
-              <p className="text-gray-300">Call our team Mon-Fri from 8am to 5pm.</p>
-              <a href="tel:+1(555)000-0000" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+              <h2 className="text-xl font-semibold text-black">Call us</h2>
+              <p className="text-black">Call our team Mon-Fri from 8am to 5pm.</p>
+              <a href="tel:+1(555)000-0000" className="flex items-center gap-2 text-black hover:text-gray-700 transition-colors">
                 <Phone size={18} />
                 +1 (555) 000-0000
               </a>
             </div>
 
             <div className="space-y-4">
-              <h2 className="text-xl font-semibold text-white">Visit us</h2>
-              <p className="text-gray-300">Chat to us in person at our Melbourne HQ.</p>
-              <a href="#" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+              <h2 className="text-xl font-semibold text-black">Visit us</h2>
+              <p className="text-black">Chat to us in person at our Melbourne HQ.</p>
+              <a href="#" className="flex items-center gap-2 text-black hover:text-gray-700 transition-colors">
                 <MapPin size={18} />
                 100 Smith Street, Collingwood VIC 3066
               </a>
