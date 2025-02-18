@@ -60,6 +60,9 @@ export default function Navbar() {
           <Link href="/contact" className="text-black/80 hover:text-black transition-colors text-sm">
             Contact
           </Link>
+          <Link href="/contact" className="text-black/80 hover:text-black transition-colors text-sm">
+            Blogs
+          </Link>
         </div>
 
         {/* Get Started Button with animated exit - Desktop */}
@@ -69,7 +72,7 @@ export default function Navbar() {
           }`}
         >
           <button className="whitespace-nowrap rounded-full bg-gray-200 text-black text-xs sm:text-sm font-medium hover:bg-gray-300 px-3 sm:px-5 py-1.5 sm:py-2">
-            Get Started
+            Join Us
           </button>
         </div>
 
