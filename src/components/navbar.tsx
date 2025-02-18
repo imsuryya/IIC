@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useState } from "react"
 import Link from "next/link"
-
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
 
@@ -46,9 +45,11 @@ export default function Navbar() {
           <Link href="#" className="text-black/80 hover:text-black transition-colors text-sm">
             Product
           </Link>
-          <Link href="" className="text-black/80 hover:text-black transition-colors text-sm">
+          <Link href="/contact" className="text-black/80 hover:text-black transition-colors text-sm">
             Contact
           </Link>
+
+
         </div>
         
         {/* Get Started Button with animated exit */}
