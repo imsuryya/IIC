@@ -46,8 +46,8 @@ export default function Navbar() {
           <Link href="#" className="text-black/80 hover:text-black transition-colors text-sm">
             Product
           </Link>
-          <Link href="#" className="text-black/80 hover:text-black transition-colors text-sm">
-            Pricing
+          <Link href="" className="text-black/80 hover:text-black transition-colors text-sm">
+            Contact
           </Link>
         </div>
         
